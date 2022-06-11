@@ -119,8 +119,8 @@ color: #fbfdff;
     box-shadow: rgba(238, 238, 238, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.678) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .header img:hover{
-    width: 500px;
-    border-radius: 0;
+    width: 450px;
+    
 }
 
 .header .container{
@@ -339,9 +339,10 @@ text-align: center;
 
 @media(max-width: 768px){
 
-    body{
-        margin: 0 10px;
-    }
+    
+   .body{
+       overflow: hidden;
+   }
     .navbar a{
         font-size: small;
     }
@@ -356,7 +357,9 @@ text-align: center;
 display: block;
 text-align: center;
     }
-
+.header img{
+    width: 250px;
+}
     .aboutme{
         height: fit-content;
         
@@ -377,10 +380,17 @@ text-align: center;
         margin-top: 50px ;
     }
 
+    .skill-box img{
+        width: 40px;
+    }
+
 }
 @media  (max-width: 396px) {
     .navbar a{
         font-size:10px ;
+    }
+    .header img:hover{
+        width:300px ;
     }
     footer{
         font-size: 10px;
