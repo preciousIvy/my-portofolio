@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #000;
+    color: #fff;
+
+}
+/* global */
+h1, h2{
+    margin-bottom: 15px;
+}
+
+ul{
+    list-style: none;
+}
+
+.box{
+  
+    flex: 1;
+    background-color: #8baeeb;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    padding: 15px 20px;
+    text-align: center;
+ 
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.social-icons ion-icon{
+    font-size: 30px; 
+    color: #fff;
+    margin-top: 10px;
+    margin: 20px auto;
+ }
+
+ .social-icons a:hover{
+    background-color: #8baeeb;
+    transition: background-color 3s ease-in-out;
+
+ }
+/* maincontent */
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color:#000; 
+   color: #fff;
+   position: fixed;
+  
+}
+
+.navbar.logo h1{
+
+font-weight: bold;
+}
+
+.navbar a{
+    color: #8baeeb;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.navbar a:hover{
+    color: #fff;
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.navbar ul{
+display: flex;
+
+}
+.navbar li{
+    margin-left: 20px;
+}
+
+
+.header{
+    background-image: linear-gradient(-45deg, rgba(0, 0, 0, .9), rgba(40, 38, 160, 0.123)),url(/images/wall.jpg);
+    background-size: cover;
+    color: #fff;
+    min-height: 400px;
+    
+  
+}
+
+.header h1{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2 ;
+     color: #fff;
+     font-weight: lighter;
+}
+
+header h3{
+color: #fbfdff;
+}
+
+.header img{
+    width: 400px;
+    border-radius: 50%;
+    box-shadow: rgba(238, 238, 238, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.678) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.header img:hover{
+    width: 500px;
+    border-radius: 0;
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    padding: 100px 0;
+
+  
+}
+
+
+.aboutme {
+   
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    
+    
+
+ 
+}
+.aboutme h2{
+    text-align: center;
+    margin-bottom: 30px;
+    margin: 50px auto;
+    
+}
+
+.aboutme .text{
+    margin: 0;
+    padding: 10px auto;
+    line-height: 1.8;
+   text-align: justify;
+  
+}
+.aboutme .container-box{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.aboutme h3{
+    margin-bottom: 20px;
+    color: #333;
+}
+.aboutme .exp{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+.aboutme .exp img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+   align-self: center;
+   margin: 20px auto;
+   box-shadow: rgba(0, 0, 0, 0.979) 0px 3px 8px ;
+}
+
+.aboutme .date{
+    box-shadow: rgba(0, 0, 0, 0.795) 0px 3px 8px;
+    font-size: x-small;
+    color: #fff;
+    background-color: #333;
+    width: 100px;
+    margin: 10px auto;
+}
+
+
+.aboutme .date:hover{
+    font-size: medium;
+    width: fit-content;
+}
+
+.aboutme .color-text{
+    color: #333;
+}
+/* myskills */
+
+.myskills{
+    height: 400px;
+    background-color: #ffffff10;
+    padding-top: 50px;
+  
+}
+
+.myskills .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.myskills img{
+    width: 60px;
+    margin-right: 10px;
+}
+
+.skill-box h2{
+    text-align: center;
+}
+
+/* my work */
+ .boxes{
+    background-color: #fff;
+    min-height: 500px;
+    padding: 40px 0px;
+}
+
+.boxes h2{
+    text-align: center;
+    margin: 30px 0;
+    color: #333;
+}
+.boxes .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxes .box{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+background-color: transparent;
+color: #000;
+}
+.box img{
+    margin-right: 10px;
+  
+}
+.box .description{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.box  img{
+   width: 100%;
+}
+.box .description a{
+    text-decoration: none;
+    background-color: #000;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    color: #fff;
+    box-shadow: rgba(17, 17, 17, 0.507) 1.95px 1.95px 2.6px;
+
+}
+
+.box .description a:hover{
+background-color: #8baeeb;
+color: #000;
+}
+.contactme{
+    height: 600px;
+}
+
+.contactme .container{
+   max-width: 400px;
+   width: 100%;
+   margin: 0 auto;
+   position: relative;
+   
+}
+
+.contactme form{
+    padding: 25px;
+    margin: 50px 0;
+}
+.contactme .container h2{
+    padding-top: 20px;
+}
+.contactme  .container input, textarea, button{
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  margin: 0 0 15px;
+  padding: 10px;
+  background-color: transparent;
+  color: #fff;
+}
+
+.contactme textarea{
+    resize: none;
+}
+
+.btn{
+    cursor: pointer;
+    background-color: #8baeeb;
+    color: #333;
+    border: none;
+   margin-top: 20px;
+   box-shadow: rgba(17, 17, 17, 0.507) 1.95px 1.95px 2.6px;
+
+}
+.btn:hover{
+    background-color: #fff;
+    transition: background-color 0.1s ease-in-out;
+    color: #000;
+    
+}
+
+
+footer{
+color: #333;
+background-color: #fff;
+padding: 20px;
+text-align: center;
+}
+
+
+/* media queries */
+
+@media(max-width: 768px){
+
+    body{
+        margin: 0 10px;
+    }
+    .navbar a{
+        font-size: small;
+    }
+    .header .container{
+        flex-direction: column;
+        padding-top:10px;
+        text-align: center;
+        padding-top: 150px;
+    }
+    .header .container img{margin-top: 50px;}
+    .boxes .container, .aboutme .container-box{
+display: block;
+text-align: center;
+    }
+
+    .aboutme{
+        height: fit-content;
+        
+    }
+.myskills{
+    padding-top: 10px;
+}
+    .myskills .container{
+        
+        flex-direction: column;
+        margin-top: 10px;
+        
+    }
+    .myskills .skill-box{
+        margin-top: 20px;
+    }
+
+}
