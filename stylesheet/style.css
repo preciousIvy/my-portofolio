@@ -377,7 +377,7 @@ text-align: center;
 }
 @media  (max-width: 396px) {
     .navbar a{
-        font-size:12px ;
+        font-size:10px ;
     }
     footer{
         font-size: 10px;
