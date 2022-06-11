@@ -375,3 +375,11 @@ text-align: center;
     }
 
 }
+@media  (max-width: 396px) {
+    .navbar a{
+        font-size:12px ;
+    }
+    footer{
+        font-size: 10px;
+    }
+}
