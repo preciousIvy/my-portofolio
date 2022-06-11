@@ -373,6 +373,9 @@ text-align: center;
     .myskills .skill-box{
         margin-top: 20px;
     }
+    footer{
+        margin-top: 50px ;
+    }
 
 }
 @media  (max-width: 396px) {
@@ -381,5 +384,6 @@ text-align: center;
     }
     footer{
         font-size: 10px;
+        
     }
 }
